@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+"http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+
+	<package name="default" extends="struts-default" namespace="/">
+
+
+		<action name="loginAction" class="action.LoginAction">
+
+			<result name="success">temp.jsp</result>
+			<result name="admin">adminhome.jsp</result>
+			<result name="login">home.jsp</result>
+			<result name="input">home.jsp</result>
+			<result name="vendor">vendor.jsp</result>
+			<result name="author">author.jsp</result>
+			<result name="publisher">publisher.jsp</result>
+		</action>
+
+		<action name="logout" class="action.LogoutAction">
+			<result name="success">home.jsp</result>
+			<result name="login">home.jsp</result>
+			<result name="input">home.jsp</result>
+		</action>
+
+		<action name="addvendor" class="action.user.AddvendorAction">
+			<result name="success">adminhome.jsp</result>
+			<result name="error">adminhome.jsp</result>
+			<result name="input">add_vendor.jsp</result>
+		</action>
+
+		<action name="addauthor" class="action.user.AddauthorAction">
+			<result name="success">adminhome.jsp</result>
+			<result name="error">adminhome.jsp</result>
+			<result name="input">add_author.jsp</result>
+		</action>
+		<action name="addpublisher" class="action.user.AddpublisherAction">
+			<result name="success">adminhome.jsp</result>
+			<result name="error">adminhome.jsp</result>
+			<result name="input">add_publisher.jsp</result>
+		</action>
+
+
+	</package>
+
+</struts>
