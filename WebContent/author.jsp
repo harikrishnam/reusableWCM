@@ -15,7 +15,6 @@
 <a href="logout">Logout</a></h5>
 	<br>
 	<s:form action="author">
-		<s:textarea key="details" name="Enter your text here" rows="5" cols="50"/>
 		<s:submit label="Add"/>
 	
 	</s:form>

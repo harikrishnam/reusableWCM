@@ -13,6 +13,7 @@
 			<result name="success">temp.jsp</result>
 			<result name="admin">adminhome.jsp</result>
 			<result name="login">home.jsp</result>
+			<result name="logout">logout.jsp</result>
 			<result name="input">home.jsp</result>
 			<result name="vendor">vendor.jsp</result>
 			<result name="author">author.jsp</result>
@@ -40,6 +41,21 @@
 			<result name="success">adminhome.jsp</result>
 			<result name="error">adminhome.jsp</result>
 			<result name="input">add_publisher.jsp</result>
+		</action>
+		<action name="author" class="action.AuthorAction">
+			<result name="success">author.jsp</result>
+			<result name="error">author.jsp</result>
+			<result name="input">author.jsp</result>
+		</action>
+		<action name="publisher" class="action.PublisherAction">
+			<result name="success">success1.jsp</result>
+			<result name="error">publisher.jsp</result>
+			<result name="input">publisher.jsp</result>
+		</action>
+		<action name="temp" class="action.temp">
+			<result name="success">temp.jsp</result>
+			<result name="error">temp.jsp</result>
+			<result name="input">temp.jsp</result>
 		</action>
 
 

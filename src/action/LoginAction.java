@@ -67,7 +67,7 @@ public class LoginAction extends ActionSupport implements SessionAware
 		User user = (User) session.get("user");
 		if (user != null)
 		{
-			return SUCCESS;
+			return "logout";
 		}
 		else
 		{
