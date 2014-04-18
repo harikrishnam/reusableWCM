@@ -13,10 +13,10 @@
 	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
-	<classpathentry kind="var" path="xqj-api-jars/lib/exist-xqj-1.0.1.jar"/>
-	<classpathentry kind="var" path="xqj-api-jars/lib/exist-xqj-examples.jar"/>
-	<classpathentry kind="var" path="xqj-api-jars/lib/xqj2-0.0.1.jar"/>
-	<classpathentry kind="var" path="xqj-api-jars/lib/xqjapi.jar"/>
+	<classpathentry kind="lib" path="/home/hari/workspace/db-jars/exist-xqj-1.0.1.jar"/>
+	<classpathentry kind="lib" path="/home/hari/workspace/db-jars/exist-xqj-examples.jar"/>
+	<classpathentry kind="lib" path="/home/hari/workspace/db-jars/xqj2-0.0.1.jar"/>
+	<classpathentry kind="lib" path="/home/hari/workspace/db-jars/xqjapi.jar"/>
 	<classpathentry kind="lib" path="/studentInfo/WebContent/WEB-INF/lib/antlr-2.7.2.jar"/>
 	<classpathentry kind="lib" path="/studentInfo/WebContent/WEB-INF/lib/asm-3.3.jar"/>
 	<classpathentry kind="lib" path="/studentInfo/WebContent/WEB-INF/lib/asm-commons-3.3.jar"/>
@@ -45,5 +45,38 @@
 	<classpathentry kind="lib" path="/studentInfo/WebContent/WEB-INF/lib/xwork-core-2.3.16.jar"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/lib"/>
 	<classpathentry kind="lib" path="/home/hari/workspace/bookstore/WebContent/WEB-INF/lib/mysql-connector-java-5.1.0-bin.jar"/>
+	<classpathentry kind="lib" path="/home/hari/workspace/db-jars/xwork-core-2.3.16.jar"/>
+	<classpathentry kind="lib" path="/home/hari/workspace/db-jars/xmlrpc-server-3.1.3.jar"/>
+	<classpathentry kind="lib" path="/home/hari/workspace/db-jars/xmlrpc-common-3.1.3.jar"/>
+	<classpathentry kind="lib" path="/home/hari/workspace/db-jars/xmlrpc-client-3.1.3.jar"/>
+	<classpathentry kind="lib" path="/home/hari/workspace/db-jars/xmldb.jar"/>
+	<classpathentry kind="lib" path="/home/hari/workspace/db-jars/ws-commons-util-1.0.2.jar"/>
+	<classpathentry kind="lib" path="/home/hari/workspace/db-jars/tiles-jsp-2.0.6.jar"/>
+	<classpathentry kind="lib" path="/home/hari/workspace/db-jars/tiles-core-2.0.6.jar"/>
+	<classpathentry kind="lib" path="/home/hari/workspace/db-jars/tiles-api-2.0.6.jar"/>
+	<classpathentry kind="lib" path="/home/hari/workspace/db-jars/struts2-tiles-plugin-2.1.8.1.jar"/>
+	<classpathentry kind="lib" path="/home/hari/workspace/db-jars/struts2-json-plugin-2.3.16.jar"/>
+	<classpathentry kind="lib" path="/home/hari/workspace/db-jars/struts2-dojo-plugin-2.3.16.jar"/>
+	<classpathentry kind="lib" path="/home/hari/workspace/db-jars/struts2-core-2.3.16.jar"/>
+	<classpathentry kind="lib" path="/home/hari/workspace/db-jars/saxon9he.jar"/>
+	<classpathentry kind="lib" path="/home/hari/workspace/db-jars/ognl-3.0.6.jar"/>
+	<classpathentry kind="lib" path="/home/hari/workspace/db-jars/mail.jar"/>
+	<classpathentry kind="lib" path="/home/hari/workspace/db-jars/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="/home/hari/workspace/db-jars/jstl-1.2.jar"/>
+	<classpathentry kind="lib" path="/home/hari/workspace/db-jars/javassist-3.11.0.GA.jar"/>
+	<classpathentry kind="lib" path="/home/hari/workspace/db-jars/ibatis-2.3.0.677.jar"/>
+	<classpathentry kind="lib" path="/home/hari/workspace/db-jars/freemarker-2.3.19.jar"/>
+	<classpathentry kind="lib" path="/home/hari/workspace/db-jars/exist.jar"/>
+	<classpathentry kind="lib" path="/home/hari/workspace/db-jars/displaytag-1.2.jar"/>
+	<classpathentry kind="lib" path="/home/hari/workspace/db-jars/commons-logging-api-1.1.jar"/>
+	<classpathentry kind="lib" path="/home/hari/workspace/db-jars/commons-logging-1.1.3.jar"/>
+	<classpathentry kind="lib" path="/home/hari/workspace/db-jars/commons-lang-2.4.jar"/>
+	<classpathentry kind="lib" path="/home/hari/workspace/db-jars/commons-lang3-3.1.jar"/>
+	<classpathentry kind="lib" path="/home/hari/workspace/db-jars/commons-io-2.4.jar"/>
+	<classpathentry kind="lib" path="/home/hari/workspace/db-jars/commons-io-2.2.jar"/>
+	<classpathentry kind="lib" path="/home/hari/workspace/db-jars/commons-fileupload-1.3.jar"/>
+	<classpathentry kind="lib" path="/home/hari/workspace/db-jars/commons-digester-2.0.jar"/>
+	<classpathentry kind="lib" path="/home/hari/workspace/db-jars/commons-collections-3.1.jar"/>
+	<classpathentry kind="lib" path="/home/hari/workspace/db-jars/commons-beanutils-1.8.0.jar"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>

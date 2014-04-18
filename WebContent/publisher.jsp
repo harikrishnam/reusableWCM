@@ -18,7 +18,7 @@
 		autocomplete="off">
 		<s:textarea key="text" rows="35" cols="120"/>
 		<s:textfield key="filename" />
-		<s:submit label="Add"/>
+		<s:submit label="SAVE AND VALIDATE"/>
 	
 	
 	</s:form>

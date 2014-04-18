@@ -11,11 +11,11 @@
 <body>
 
 <h2 align="middle">Author</h2>
-	<h5 align="right"><small><s:property value="publisher" /></small> 
+	<h5 align="right">
 <a href="logout">Logout</a></h5>
 	<br>
 	<s:form action="author">
-		<s:submit label="Add"/>
+		<s:submit label="ADD FILES"/>
 	
 	</s:form>
 	<br>
